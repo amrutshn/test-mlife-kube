@@ -13,7 +13,7 @@ release: validate
 	git stash
 	git checkout main
 	git reset --hard HEAD
-	git tag env.${MLIFE_ENV} --force
+	git tag env.${MLIFE_VERSION} --force
 	git push --tags --force
 
 validate:
